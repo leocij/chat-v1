@@ -22,7 +22,7 @@ public class IndexController {
 		
 		usuarios.add(usuario);
 		
-		ModelAndView modelView = new ModelAndView("index");
+		ModelAndView modelView = new ModelAndView("chatv1");
 
 			modelView.addObject("usuarios", usuarios);
 		
